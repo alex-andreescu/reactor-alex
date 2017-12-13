@@ -4,5 +4,8 @@
     "description": "My own Discord bot",
     "main": "reactor.js",
     "author": "Alex Andreescu",
-    "dependencies": {}
-  }
+    "dependencies": {
+        "discord.io": "github:woor/discord.io#gateway_v6",
+        "winston": "^2.4.0"
+    }
+}
